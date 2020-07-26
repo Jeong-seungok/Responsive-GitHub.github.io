@@ -1,0 +1,54 @@
+/* VISUAL */
+.section--visual .summary__title{
+    font-size: 34px;
+}
+.section--visual .summary__description{
+    font-size: 22px;
+}
+
+/* FEATURE */
+.section--feature .summary__title{
+    font-size: 34px;
+}
+.section--feature .summary__description{
+    font-size: 22px;
+}
+.section--feature .tiles ul{
+    grid-template-columns: repeat(1,1fr);
+}
+
+/* Where is */
+.section--where-is .summary__title{
+    font-size: 34px;
+}
+.section--where-is .summary__description{
+    font-size: 22px;
+}
+#map{
+    width: auto;
+    margin: 40px -20px 0 -20px;
+    border-left: none;
+    border-right: none;
+}
+
+/* Pricing Card */
+.section--pricing .inner .card{
+    display: block;
+}
+.section--pricing .card .cell2{
+    border-left: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* FOOTER */
+footer .site-links{
+    display: block;
+    float: none;
+    text-align: center;
+}
+footer .site-links.float--right{
+    margin-bottom: 20px;
+}
+footer .site-links li{
+    display: inline;
+}
